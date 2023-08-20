@@ -1,4 +1,4 @@
-name: CI Infra as Code
+name: CI Infra as Code!
 on:
   [workflow_dispatch, push]
 concurrency: ci-${{ github.ref }}
