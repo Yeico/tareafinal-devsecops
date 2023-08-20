@@ -68,7 +68,7 @@ jobs:
         id: build_image
         env:
           REGISTRY: ghcr.io
-          IMAGE_NAME: yeico/tareafinal-devsecops
+          IMAGE_NAME: ${{ github.repository }}
           ECR_REPOSITORY: yeico/tareafinal-devsecops
           IMAGE_TAG: ${{ env.IMAGE_TAG }}
         run: |
